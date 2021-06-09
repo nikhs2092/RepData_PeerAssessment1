@@ -180,3 +180,7 @@ print(g3)
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+
+```r
+rm(data, newdata, s.newdata, g3)
+```

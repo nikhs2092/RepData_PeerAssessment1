@@ -150,3 +150,6 @@ g3 <- ggplot(s.newdata, aes(interval, mean.steps)) + geom_line() + facet_grid(co
 print(g3)
 
 ```
+```{r}
+rm(data, newdata, s.newdata, g3)
+```
